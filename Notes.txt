@@ -1,0 +1,14 @@
+Content
+ - Introduction
+ - Cluster Architecture
+ - How to setup Data pipeline?
+ - What is the Role of source connector?
+ - What is the Role of sink connector?
+ - Why we need SMT?
+
+
+
+----Reference------
+-------Kafka docker setup---------
+ documentation: https://docs.confluent.io/platform/current/quickstart/ce-docker-quickstart.html?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.brand_tp.prs_tgt.confluent-brand_mt.mbm_rgn.india_lng.eng_dv.all_con.confluent-docker&utm_term=%2Bconfluent%20%2Bdocker&creative=&device=c&placement=&gclid=Cj0KCQiAmKiQBhClARIsAKtSj-nl8v2dj_6wR_xV8whuuDBDX0hOSiKi0Um3CS7hHjS68JdnPXRCqmcaAsg7EALw_wcB 
+ docker-compose-file for kafka cluster setup : https://github.com/confluentinc/cp-all-in-one/blob/7.0.1-post/cp-all-in-one/docker-compose.yml
