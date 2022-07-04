@@ -1,0 +1,14 @@
+{
+    "name": "jdbc_simple_people_connector",
+    "config": {
+        "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+        "connection.url": "jdbc:sqlserver://sqlserverkafkaplayground.database.windows.net:1433;database=Kafka_Db",
+        "connection.user": "kafkauser",
+        "connection.password": "Kafka123",
+        "table.whitelist": "People",
+        "mode": "incrementing",
+        "incrementing.column.name": "Id",
+        "tasks.max": "1",
+        "poll.interval.ms": "5000"
+    }
+}

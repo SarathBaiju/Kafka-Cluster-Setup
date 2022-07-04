@@ -1,0 +1,18 @@
+1. Kafka introduction?
+    In Data engineering, large amount of data is used . Where engineers will face 2 challenges
+	1. How to Collect all the data
+	2. How to analyse and process it into destination
+	To solve this 2 challenges we need a messaging system. A messaging system is responsible for transfering data from one system
+	to another.
+	
+2. Kafka cluster architecture
+   Broker
+   Zookeeper
+   Connectors(Source and Sink) 
+      Tenant: https://kafka-connect-01.frontiers-int2.info/connectors
+	  SS : http://kafka-connect-01-ss.frontiersin.org
+   Kafdrop UI
+   
+3. Usecase diagram
+   
+4. How we create connectors through release pipeline?
